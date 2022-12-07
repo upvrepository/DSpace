@@ -24,7 +24,7 @@
         <spring-security.version>5.6.5</spring-security.version> <!-- sync with version used by spring-boot-->
         <hibernate.version>5.6.5.Final</hibernate.version>
         <hibernate-validator.version>6.0.23.Final</hibernate-validator.version>
-        <postgresql.driver.version>42.4.1</postgresql.driver.version>
+        <postgresql.driver.version>42.4.3</postgresql.driver.version>
         <solr.client.version>8.11.1</solr.client.version>
 
         <ehcache.version>3.4.0</ehcache.version>
@@ -1507,6 +1507,11 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-pool2</artifactId>
                 <version>2.11.1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-text</artifactId>
+                <version>1.10.0</version>
             </dependency>
             <dependency>
                 <groupId>commons-validator</groupId>
